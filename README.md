@@ -1,6 +1,21 @@
-# HMI
-DIP-BI7
+# HMI:
+Hu moment invariants
 
-“findmoment”: finding hu moment function
-“findStore”: find relevant store signs using hu moment
-“testImage”: analyze an image (threshold, contour)   
+# Usage:
+  ## Find Relevant Store Signs
+  python findStore.py -d test
+  
+  ## Analyze Image
+  python testImage.py
+
+# Modules:
+  â€œfindmomentâ€: Hu moment function 
+
+  â€œfindStoreâ€: Find relevant store signs
+
+  â€œtestImageâ€: Analyze an image (threshold, contour, moment)
+
+# Dataset:
+  "test": Sub dataset (100 images) of the original dataset (~800 images)
+  
+
